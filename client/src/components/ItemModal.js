@@ -39,7 +39,7 @@ class ItemModal extends Component {
             
             <h4 className='mb-3 ml-4'>Please select the type of charger</h4>
         ) : (
-          <h4 className='mb-3 ml-4'>Please log in to select charger type</h4>
+          <h4 className='mb-3 ml-4'>You are not logged in. Chargers disabled.</h4>
         )}
   
 

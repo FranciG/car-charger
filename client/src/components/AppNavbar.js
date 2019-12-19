@@ -18,7 +18,7 @@ import battery from '../battery.png';
 import ecar from '../ecar.png';
 
 var imgStyle = {
-  maxWidth: "50px",
+  maxHeight: "100px",
 };
 
 class AppNavbar extends Component {
@@ -67,14 +67,14 @@ const guestLinks = (
 
             return (
             <div>
-                <Navbar color="info" dark expand="sm" className="mb-5">
+                <Navbar color="success" dark expand="sm" className="mb-5">
 
                 <Container>
                 <Media>
       
-      <Media style={imgStyle} object src={ecar} alt="battery" />
+      <Media style={imgStyle} object src={ecar} className='mr-5' alt="battery" />
     </Media> 
-            <NavbarBrand  href='/'>Charge-a-car </NavbarBrand>
+            <NavbarBrand   href='/'> Charge-a-car </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className='ml-auto' navbar>

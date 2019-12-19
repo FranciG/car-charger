@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, ListGroup, ListGroupItem, Button } from 'reactstrap';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-// import uuid from 'uuid';
+
 import { connect } from 'react-redux';
 import { getItems } from '../actions/itemActions';
 import PropTypes from 'prop-types';
@@ -47,9 +47,9 @@ render () {
                         : 
                         <Button
                         className="btn"
-                        color="secondary" size="sm" disabled 
+                        color="secondary" size="sm" disabled
                         style={{ marginRight: '1rem' }}
-                        onClick={()=>{ alert('Function not implemented'); }}
+                        
                         >
                         
                            Type 2
@@ -71,7 +71,7 @@ render () {
                         className="btn"
                         color="secondary" size="sm" disabled 
                         style={{ marginRight: '1rem' }}
-                        onClick={()=>{ alert('Function not implemented'); }}
+                        
                         >
                         
                            Fast CSS
