@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://fran:123@cluster0-2crqb.mongodb.net/test?retryWrites=true&w=majority",
+    "mongoURI": "mongodb+srv://user:psw@cluster0-2crqb.mongodb.net/test?retryWrites=true&w=majority",
  "jwtSecret":"awasecret"
 }
