@@ -7,22 +7,9 @@ import { connect } from 'react-redux';
 //remove this
 
 import PropTypes from 'prop-types';
-import ecar from '../ecar.png';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  Media,
-  Container
-} from 'reactstrap';
-var imgStyle = {
-  maxWidth: "100px",
-};
 
-class ItemModal extends Component {
+
+class Message extends Component {
   
       static propTypes = {
         isAuthenticated: PropTypes.bool
@@ -59,4 +46,4 @@ const mapStateToProps = state => ({
     isAuthenticated: state.auth.isAuthenticated
   });
 export default connect(mapStateToProps,
-    )(ItemModal);
+    )(Message);
