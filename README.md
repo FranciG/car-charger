@@ -1,3 +1,18 @@
+
+## App deployed at:
+
+https://evening-tor-21470.herokuapp.com/
+
+## App description:
+
+To create this app I used React, mongodb, reactstrap, Express, Redux, Json web tokens.
+
+The app consists on:
+A navigation bar with a welcome message that toggles if logged in or not.
+An itemlist that displays on a list the locations pulled from the database. The buttons on the list have no functionality 
+and only change color if the user is authenticated or not. If not authenticated, they look disabled.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
